@@ -1,0 +1,56 @@
+[
+    {
+        "description":"Great car",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ferrari_F8_Tributo_Genf_2019_1Y7A5665.jpg/320px-Ferrari_F8_Tributo_Genf_2019_1Y7A5665.jpg",
+        "year": "2019-09-21",
+        "make_model": "Ferrari"
+    },
+    {
+        "description":"The Huracán EVO is the evolution of the most successful V10-powered Lamborghini ever. The result of fine-tuning and refining existing features, combined with new design solutions that increase performance, the car stands out for its ability to anticipate and cater to the driver’s behavior, expectations and desires.",
+        "image_url": "https://www.topgear.com/sites/default/files/cars-car/carousel/2019/01/tom_5734.jpg?w=976&h=549",
+        "year": "2020-12-20",
+        "make_model": "Lamborghini Huracan Evo"
+
+    },
+    {
+        "description":"The Gallardo Superleggera Edizione Tecnica displays a stylish, sophisticated design directly inspired by the Super Trofeo championship racing cars. Created by removing approximately 100 kg of weight from the Gallardo Coupè, this model looks like a car designed for racetracks brought straight to the road, boasting an unbelievably low power-to-weight ratio and an acceleration of 0 to 100 km/h in just 3.8 seconds. With a more determined, lightweight design, focus on high performance, and an overall purist look, the Gallardo Superleggera Edizione Tecnica marks the very pinnacle of the Gallardo family.",
+        "image_url": "https://www.pcarmarket.com/static/media/uploads/galleries/photos/uploads/galleries/19895-enany-2013-lamborghini-gallardo-lp-570-4-superleggera/.thumbnails/DO2A8393.jpg/DO2A8393-tiny-2048x0-0.5x0.jpg",
+        "year": "2021-02-23",
+        "make_model": "Lamborghini Gallardo Superleggera"
+
+    },
+    {
+        "description":"The Pagani takes its design inspiration from the Fangio model and the outcome is an innovative and exclusive creation featuring a 12-cylinder Mercedes-AMG 12 engine, more evolved and lightweight, astonishing and fascinating compared to its predecessors, with maximum output power of 650 HP and 780 Nm torque. By following this path, Pagani manages to achieve a rare gem of luxury, endowed with character, style and a personality of its own, which reflects not only the artisan touch of its creator, but also his very inspiration.",
+        "image_url": "https://images.autodaily.com.au/2022/12/Pagani-Zonda-F-drive-1-696x431.jpg",
+        "year": "2007-03-19",
+        "make_model": "Pagani Zonda F"
+
+    },
+    {
+        "description":"With a fuel consumption of 10.5 litres/100km - 27 mpg UK - 22 mpg US (Average), 0 to 100 km/h (62mph) in 5.2 seconds, a maximum top speed of 155 mph (250 km/h), a curb weight of 3483 lbs (1580 kgs), the Impreza III WRX STI Hatchback Sport has a turbocharged Boxer 4 cylinder engine, Petrol motor.",
+        "image_url": "https://www.motortrend.com/uploads/f/142799423.jpg?fit=around%7C875:492",
+        "year": "2009-05-01",
+        "make_model": "Subaru STI Hatchback"
+
+    },
+    {
+        "description":"Weight-paring and sticky rubber help this R-Spec scoot to 60 mph in 6.2 seconds, whereas the ’16 needed 6.7 with the same powertrain. Thanks in large part to the Michelins, skidpad grip jumps to 0.95 g from 0.85, and stopping from 70 mph takes only 151 feet versus 173.",
+        "image_url": "https://images.fitmentindustries.com/web-compressed/836846-1-2019-veloster-hyundai-turbo-r-spec-ark-performance-coilovers-voxx-falco-matte-black.jpg",
+        "year": "2019-11-13",
+        "make_model": "Hyundai Veloster R-Spec"
+
+    },
+    {
+        "description":"The BMW M3 is a high-performance tuned version of the 3-series coupe. The M3 seats five passengers and comes in either a coupe or convertible. It features many of the same amenities as other 3-series models, but it has distinct sporty styling cues that set it apart thanks to its racing heritage. It is powered by a 33 hp 3.2-liter inline-six cylinder engine that is mated to a Getrag Type D six-speed manual transmission. ",
+        "image_url": "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2021/e46-gtr-street/bmw-m3-gtr-street-stage-teaser.jpg/jcr:content/renditions/cq5dam.resized.img.980.medium.time1629987440698.jpg",
+        "year": "2005-06-07",
+        "make_model": "BMW M3"
+
+    }
+
+
+
+
+
+
+]

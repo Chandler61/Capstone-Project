@@ -1,0 +1,31 @@
+
+<link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header-title">All Cars</h1>
+      <p class="header-subtitle">Explore our collection of amazing cars</p>
+    </header>
+    
+    <main>
+      <ul class="car-list">
+        {% for car in cars %}
+          <li class="car-item">
+            <a href="/cars/{{ car.car_id }}" class="car-link">
+              <div class="car-image">
+                {{ car.make_model }}
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <a href="/" class="button">Go Home</a>
+      <p class="footer-text">© 2023 Supercar steals. All rights reserved.</p>
+    </footer>
+    
+  </div>
+</body>

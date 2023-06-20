@@ -1,0 +1,44 @@
+.car-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.car-image {
+    width: 600px; 
+    height: auto;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+  }
+
+.buttons {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+  }
+
+.buttons a {
+    margin: 0 10px; 
+  }
+
+.car-make-model {
+    font-size: 35px; 
+    text-align: center;
+    margin-top: 20px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+  }
+
+.container{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png");
+}
+
+.description{
+    font-size: 20px; 
+    text-align: center;
+}
+
+header {
+  text-decoration: underline;
+}

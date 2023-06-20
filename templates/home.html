@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}Cars Ratings Home{% endblock %}
+
+{% block body %}
+<body>
+    <div class="background-pattern"></div>
+    <div class="container">
+
+        <header>
+            <h1>Supercar Steals</h1>
+        </header>
+        <div class="image-container">
+            <img src="https://www.pcarmarket.com/static/media/uploads/galleries/photos/uploads/galleries/19895-enany-2013-lamborghini-gallardo-lp-570-4-superleggera/.thumbnails/DO2A8393.jpg/DO2A8393-tiny-2048x0-0.5x0.jpg" alt="">
+            <a class="overlay-button" href="/cars">View all Cars</a>
+        </div>
+        
+        <h2>Create Your Account:</h2>
+        <form action="/users" method="POST">
+            <p>
+                Email: <input type="text" name="email">
+            </p>
+            
+            <p>
+                Password: <input type="password" name="password">
+            </p>
+            
+            <p>
+                <input type="submit" value="Create Account">
+            </p>
+        </form>
+        
+        <h2>Log In:</h2>
+        <form action="/login" method="POST">
+            <p>
+                Email: <input type="text" name="email">
+            </p>
+            
+            <p>
+                Password: <input type="password" name="password">
+            </p>
+            
+            <p>
+                <input type="submit" value="Log In">
+            </p>
+        </form>
+        <p>
+            <form action="/logout" method="POST">
+                <button type="submit" class="logout-button">Logout</button>
+              </form>
+        </p>
+    </div>
+</body>
+{% endblock %}

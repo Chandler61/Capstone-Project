@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="/static/details.css">
+<body class="container">
+  <header>
+    <h1 class="car-make-model">{{ car.make_model }}</h1>
+  </header>
+
+  <main>
+    <div class="car-details">
+      <p class="description">{{ car.description }}</p>
+      <img src="{{ car.image_url }}" alt="{{ car.make_model }}" class="car-image">
+    </div>
+
+    <div class="buttons">
+      <a href="/" class="button">Go Home</a>
+      <a href="/cars" class="button">Back to Cars</a>
+      <form action="/add_to_cart/{{ car.car_id }}" method="POST" class="add-to-cart-form">
+        <input type="submit" value="Add to Cart" class="button">
+      </form>
+    </div>
+  </main>
+</body>
